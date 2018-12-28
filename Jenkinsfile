@@ -9,7 +9,7 @@ node{
 	stage('Slack Notification'){
 	slackSend baseUrl: 'https://hooks.slack.com/services/',
      channel: '#devops', color: '#008000', 
-     message: 'Build Started', 
+     message: 'Springboot app build and succeded.', 
      teamDomain: 'devops-dxa2539', 
      tokenCredentialId: 'slack-secret'
 	}
